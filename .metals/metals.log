@@ -1,0 +1,38 @@
+2023.10.04 08:26:11 INFO  Started: Metals version 1.0.1 in folders '/Users/aj/Desktop/C++' for client Visual Studio Code 1.82.3.
+Oct 04, 2023 8:26:12 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 04, 2023 8:26:12 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 04, 2023 8:26:12 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 04, 2023 8:26:12 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/Users/aj/Desktop/C++/.metals/metals (H2 2.1)
+Oct 04, 2023 8:26:12 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Oct 04, 2023 8:26:12 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.008s)
+Oct 04, 2023 8:26:12 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Oct 04, 2023 8:26:12 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Oct 04, 2023 8:26:12 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Oct 04, 2023 8:26:12 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Oct 04, 2023 8:26:12 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Oct 04, 2023 8:26:12 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Oct 04, 2023 8:26:12 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.012s)
+2023.10.04 08:26:12 INFO  time: initialize in 0.33s
+2023.10.04 08:26:13 WARN  Build server is not auto-connectable.
+2023.10.04 08:26:13 WARN  no build tool detected in workspace '/Users/aj/Desktop/C++'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Oct 04, 2023 8:27:19 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2023 8:27:21 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2023 8:27:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2023 8:28:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
